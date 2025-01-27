@@ -38,7 +38,7 @@ const Work = ({isDarkMode}) => {
         className='mx-auto w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full px-10 py-3 hover:bg-gray-100 dark:text-white dark:border-white dark:hover:bg-darkHover'
       >
         View All Projects
-        <Image src={isDarkMode ? assets.arrow_right_light : assets.arrow_right_dark} alt='arrow right' className='w-5' />
+        <Image src={isDarkMode ? assets.right_arrow_white : assets.right_arrow_bold} alt='arrow right' className='w-5' />
       </motion.a>
     </motion.div>
   )
