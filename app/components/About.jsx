@@ -5,7 +5,7 @@ import { motion } from 'motion/react'
 
 const About = ({isDarkMode}) => {
   return (
-    <motion.div id='about' className='w-full px-4 sm:px-8 md:px-[12%] py-10 scroll-mt-20'
+    <motion.div id='about' className='w-full px-4 sm:px-8 md:px-[12%] py-10 scroll-mt-20 container mx-auto'
     initial={{opacity:0}}
     whileInView={{opacity:1}} transition={{duration:1}}>
       <motion.h4 initial={{opacity:0, y:-20}}
@@ -13,7 +13,7 @@ const About = ({isDarkMode}) => {
       <motion.h2 initial={{opacity:0,y:-20}}
     whileInView={{opacity:1,y:0}} transition={{duration:0.5,delay:0.5}} className='text-center text-4xl sm:text-5xl font-Ovo'>About me</motion.h2>
       <motion.div initial={{opacity:0}}
-    whileInView={{opacity:1}} transition={{duration:0.8}} className='flex w-full flex-col lg:flex-row items-center gap-10 sm:gap-20 my-10 sm:my-20'>
+    whileInView={{opacity:1}} transition={{duration:0.8}} className='flex w-full flex-col lg:flex-row items-center justify-center gap-10 sm:gap-20 my-10 sm:my-20'>
         <motion.div 
         initial={{opacity:0,scale:-0.9}}
         whileInView={{opacity:1,scale:1}} transition={{duration:0.6}} 
@@ -22,7 +22,7 @@ const About = ({isDarkMode}) => {
         </motion.div>
         <motion.div initial={{opacity:0}}
     whileInView={{opacity:1}} transition={{duration:0.6,delay:0.8}} 
-     className='flex-1 px-4'>
+     className='flex-1 px-0 sm:px-4 w-full max-w-3xl mx-auto'>
             <p className='mb-6 sm:mb-10 max-w-21 font-Ovo text-sm sm:text-base'>I specialize in full-stack web development using the MERN stack, creating problem solving web application,Integrating UI design with back-end development.</p>
             <motion.ul
             initial={{opacity:0}}
