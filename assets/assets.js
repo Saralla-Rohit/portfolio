@@ -87,19 +87,19 @@ export const workData = [
         title: 'Local service provider',
         description: 'Find local service providers near me',
         bgImage: '/work-2.png',
-        link: 'https://service-hunt.onrender.com' 
-    },
-    {
-        title: 'Roomify',
-        description: 'Organize and compare room options',
-        bgImage: '/work-1.png',
-        link: 'https://room-search-and-management.onrender.com' 
+        link: 'https://service-hunt-react.onrender.com' 
     },
     {
         title: 'Tube Ratio',
         description: 'Watch high rated videos on youtube',
         bgImage: '/work-3.png',
         link: 'https://youtube-clone-like-ratio.onrender.com' 
+    },
+    {
+        title: 'Roomify',
+        description: 'Organize and compare room options',
+        bgImage: '/work-1.png',
+        link: 'https://room-search-and-management.onrender.com' 
     },
 ]
 
