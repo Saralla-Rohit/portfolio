@@ -87,7 +87,7 @@ export const workData = [
         title: 'Local service provider',
         description: 'Find local service providers near me',
         bgImage: '/work-2.png',
-        link: 'https://service-hunt-react.onrender.com' 
+        link: 'https://service-hunt-react-1.onrender.com' 
     },
     {
         title: 'Tube Ratio',
