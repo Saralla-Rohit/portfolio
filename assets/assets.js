@@ -82,7 +82,13 @@ export const assets = {
 };
 
 export const workData = [
-    
+
+    {
+        title: 'Scalable Spotify Clone',
+        description: 'Scalable spotify clone deployed on AWS',
+        bgImage: '/work-1.png',
+        link: 'http://15.206.212.210:3000/' 
+    },
     {
         title: 'Local service provider',
         description: 'Find local service providers near me',
@@ -90,15 +96,9 @@ export const workData = [
         link: 'https://service-hunt-react-1.onrender.com' 
     },
     {
-        title: 'Tube Ratio',
-        description: 'Watch high rated videos on youtube',
-        bgImage: '/work-3.png',
-        link: 'https://youtube-clone-like-ratio.onrender.com' 
-    },
-    {
         title: 'Roomify',
         description: 'Organize and compare room options',
-        bgImage: '/work-1.png',
+        bgImage: '/work-3.png',
         link: 'https://room-search-and-management.onrender.com' 
     },
 ]
